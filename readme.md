@@ -39,6 +39,7 @@ $ nvm use 8.11.0
 # このアプリの起動
 $ git clone https://github.com/sakkuntyo/line-oumukaesi-nodejs
 $ cd line-oumukaesi-nodejs
+$ sed "s,<AccessToken>,ここにアクセストークンを入れる,g" -i routes/index.js
 $ ln -si /etc/letsencrypt/live/<ドメイン名>/fullchain.pem
 $ ln -si /etc/letsencrypt/live/<ドメイン名>/privkey.pem
 $ npm install
