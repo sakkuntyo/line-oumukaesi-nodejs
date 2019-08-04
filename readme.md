@@ -82,9 +82,3 @@ $ pm2 save
   - Line@の機能を停止
     - 自動応答メッセージを 利用しない に変更
     - 友達追加時あいさつを 利用しない に変更
-
-### 5.Subscribe to Workspace Events に message.channels を追加して保存
-
-Event Subscriptionsのページから設定できます
-
-チャンネル内のメッセージが来た時に起こるイベント
