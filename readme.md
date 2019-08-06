@@ -18,7 +18,7 @@ SlackのOutgoing Webhook(Event API)を使用したBotと仕組みが同じ
   - Line Developersが443以外のポート指定を許さない
     - １つの環境で単一のBotを立てるだけの場合、考えなくて良い
     - １つの環境で複数のBotを立てたい場合には、外部からのドメインによるアクセスを振り分けるリバースプロキシ等の実装が必要
-      - NginxやApacheで実装できる
+      - リバースプロキシはNginxやApacheで実装できる
 
 ## 動作環境
 
